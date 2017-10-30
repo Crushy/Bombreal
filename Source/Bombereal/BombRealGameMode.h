@@ -17,4 +17,5 @@ class BOMBEREAL_API ABombRealGameMode : public AGameModeBase
 public :
 	ABombRealGameMode();
 	
+	virtual void StartPlay();
 };

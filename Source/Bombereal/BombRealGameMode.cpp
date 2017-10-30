@@ -16,4 +16,12 @@ ABombRealGameMode::ABombRealGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+
+}
+
+void ABombRealGameMode::StartPlay()
+{
+	AGameModeBase::StartPlay();
+	UGameplayStatics::CreatePlayer(this,-1,true);
 }
