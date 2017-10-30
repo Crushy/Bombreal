@@ -2,6 +2,7 @@
 
 #include "BombRealGameMode.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 ABombRealGameMode::ABombRealGameMode()
 {
