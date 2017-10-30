@@ -6,10 +6,11 @@
 ABombRealGameMode::ABombRealGameMode()
 {
 	// use our custom PlayerController class
-	static ConstructorHelpers::FClassFinder<AController> ControllerBPClass(TEXT("/Game/TopDownCPP/Blueprints/TopDownCharacter"));
+	static ConstructorHelpers::FClassFinder<APlayerController> PlayerControllerBPClass(TEXT("/Game/BombReal/Blueprints/TopDownController"));
+	PlayerControllerClass = PlayerControllerBPClass.Class;
 
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/TopDownCPP/Blueprints/TopDownCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/BombReal/Blueprints/TopDownCharacter"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
