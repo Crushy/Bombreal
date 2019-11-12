@@ -1,6 +1,6 @@
 # Bombreal
 
-A small Bomberman clone built using unreal. Took around 12 hours to make. All assets are either provided by unity or created by me except for the custom InputKey used to get keyboard input on the second player sourced from https://wiki.unrealengine.com/Local_Multiplayer_Tips 
+A small Bomberman clone built using unreal. Took around 12 hours to make. All assets are either provided by Epic or created by me except for the custom InputKey used to get keyboard input on the second player sourced from https://wiki.unrealengine.com/Local_Multiplayer_Tips 
 
 # Future work
 Missing win/lose screens, reseting the level and remote mine powerup.
